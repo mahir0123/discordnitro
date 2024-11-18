@@ -1,0 +1,32 @@
+﻿/* Sayfa stili */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Accept butonunun stili */
+.accept-button {
+    position: fixed;
+    bottom: 20px; /* Alt kısımdan 20px uzaklık */
+    left: 20px;   /* Sol kısımdan 20px uzaklık */
+    background-color: #007bff; /* Mavi renk */
+    color: white; /* Beyaz metin */
+    border: none; /* Kenarlık yok */
+    padding: 10px 20px; /* Yatay ve dikey padding */
+    font-size: 16px; /* Yazı büyüklüğü */
+    border-radius: 5px; /* Yuvarlatılmış köşeler */
+    cursor: pointer; /* Fare işareti değişikliği */
+    transition: background-color 0.3s ease; /* Renk değişimi animasyonu */
+}
+
+/* Hover efekti */
+.accept-button:hover {
+    background-color: #0056b3; /* Hoverda daha koyu mavi */
+}
